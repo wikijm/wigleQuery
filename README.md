@@ -9,7 +9,16 @@ A command line tool for querying wigle.net and displaying results on Google Maps
 </a>
 
 ## Installation
-```
+```python
+# Clone the repository from GitHub
+git clone https://github.com/wytshadow/wigleQuery/
+# Navigate into the cloned repository directory
+cd ./wigleQuery
+# Create a virtual environment named wigleQuery
+python3 -m venv wigleQuery
+# Activate the virtual environment
+source venv/bin/activate
+# Install the required packages listed in the requirements.txt file
 python3 -m pip install -r requirements.txt
 ```
 
